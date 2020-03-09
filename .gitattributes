@@ -1,0 +1,10 @@
+* text=auto
+
+*.html text
+*.css text
+*.js text
+
+*.sln text eol=crlf
+*.bat text eol=crlf
+
+*. text eol=lf
