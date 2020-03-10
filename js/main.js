@@ -11,7 +11,7 @@ class TicTacToe {
 			[1, 4, 7],
 			[2, 5, 8],
 			[0, 4, 8],
-			[2, 4, 6],
+			[2, 4, 6]
 		];
 		this._text = document.querySelector('.win-text'); // текст модального окна
 		this._modal = document.getElementById('modal');   // модальное окно
@@ -25,8 +25,6 @@ class TicTacToe {
 
 		document.querySelector('.game-restart').addEventListener('click', e => this._handleReset(e));
 		document.querySelector('.reset').addEventListener('click', e => this._removeModal(e));
-
-
 	}
 
 
