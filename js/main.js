@@ -30,7 +30,7 @@ class TicTacToe {
 
 	// переход хода
 	_handleMove(event) {
-		if (event.target.textContent == '') {
+		if (event.target.textContent === '') {
 			event.target.textContent = this._setMove ? 'X' : '0';
 			this._movesCount++;
 			this._setMove = !this._setMove;
