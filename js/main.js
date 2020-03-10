@@ -18,7 +18,7 @@ class TicTacToe {
 		this._setMove = true;                             // кто ходит
 		this._movesCount = 0;                             // текущий номер хода
 		this._isVictory = false;                          // если true - победа
-		this._cells = document.querySelectorAll('.cell'); // псевдомассив клеток
+		this._cells = [...document.querySelectorAll('.cell')]; // массив клеток
 		this._cells.forEach(cell => cell.addEventListener('click', event => {
 			this._handleMove(event);
 		}));
