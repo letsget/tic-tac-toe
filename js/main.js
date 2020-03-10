@@ -64,7 +64,7 @@ class TicTacToe {
 
 	// проверка на ничью
 	_handleDraw() {
-		if (!this._isVictory && this._movesCount == 9) {
+		if (!this._isVictory && this._movesCount === 9) {
 			this._text.textContent = '🍾 Ничья! 🍾';
 			this._declareWinner();
 		}
